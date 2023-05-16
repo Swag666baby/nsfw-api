@@ -11,7 +11,9 @@ function randomImages(folder, response){
         response.send(fs.readFileSync(`${folder}/${randomImage}`))
     });
 }
-
+app.get('/', (request, response) =>{
+    response.send("the routes are: /hentai, /yaoi, /yuri, /bdsm, /trap    my github is: https://github.com/Swag666baby :)")
+});
 app.get('/hentai', (request, response) =>{
     randomImages("media/hentai", response)
 });
