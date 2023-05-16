@@ -1,7 +1,7 @@
 {
-  "name": "dlw",
+  "name": "nsfw-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
