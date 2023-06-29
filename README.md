@@ -26,4 +26,4 @@ tsc app.ts
 /bdsm
   
 # in the air is like: 
-https://nsfw-api-5xza.onrender.com/
+https://nsfw-api-p302.onrender.com/
