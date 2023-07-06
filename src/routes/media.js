@@ -1,4 +1,4 @@
-function nsfwMedia(request, response, fs, _){
+function nsfwMedia(request, fs, response, _){
     const value = request.params.value;
     
     function randomImages(folder){
@@ -10,9 +10,11 @@ function nsfwMedia(request, response, fs, _){
         });
     }
     
-    if(value == "hentai") randomImages("../media/hentai");
-    else if(value == "yuri") randomImages("../media/yuri");
-    else if(value == "yaoi") randomImages("../media/yaoi");
-    else if(value == "trap") randomImages("../media/trap");
+    if(value == "hentai") randomImages("media/hentai");
+    else if(value == "yuri") randomImages("media/yuri");
+    else if(value == "yaoi") randomImages("media/yaoi");
+    else if(value == "trap") randomImages("media/trap");
+    else if(value == "bdsm") randomImages("media/bdsm");
+    else response.send({"response":"see the routes in : https://github.com/Swag666baby/nsfw-api"})
 }
 module.exports = nsfwMedia;
