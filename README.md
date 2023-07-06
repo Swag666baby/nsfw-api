@@ -6,24 +6,19 @@ an api to "generate" nsfw images randomly.
 git clone https://github.com/Swag666baby/nsfw-api
 bash build.sh
 ```
-or
-```
-git clone https://github.com/Swag666baby/nsfw-api
-yarn add express lodash @types/node
-npm install -g typescript
-tsc app.ts
-```
 
-# an api to "generate" nsfw images, has the following routes:
-/hentai
+## to generate already searched images you can use the following routes 
 
-/yaoi
+### /media/hentai
+### /media/yaoi
+### /media/yuri
+### /media/bdsm
+### /media/trap
 
-/yuri
+## to search images all over the Internet and get a detailed description you will use the route
 
-/trap
+### /search?q=<your research>
 
-/bdsm
   
 # in the air is like: 
 https://nsfw-api-p302.onrender.com/
