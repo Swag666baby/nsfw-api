@@ -1,6 +1,4 @@
 echo "installing libraries..."
-yarn add express lodash @types/node
-npm install -g typescript 
+yarn add express lodash axios cheerio
 echo "libraries successfully installed! running application..."
-tsc app.ts
-node app.js
+node src/app.js
