@@ -7,11 +7,15 @@ const nsfwMedia = require("./routes/media");
 const searchRoute = require("./routes/search");
 const app = express();
 
-app.get('/media:value', (request, response) =>{
-    nsfwMedia(request, response, fs, _);
+app.get('/media/:value', (request, response) =>{
+    console.log(request.params.value)
+    nsfwMedia(request, fs, response, _);
 });
-app.get("/", async(request, response) => {
+app.get("/search", async(request, response) => {
     searchRoute(request, response)
 })
+app.get("/", async(request, response) => {
+    response.send({"docs": "https://github.com/Swag666baby/nsfw-api"})
+})
 
-app.listen(3000)
+app.listen(3000, () => console.log("running"))
