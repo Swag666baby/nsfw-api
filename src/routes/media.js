@@ -10,9 +10,9 @@ function nsfwMedia(request, response, fs, _){
         });
     }
     
-    if(value == "hentai") randomImages("../../media/hentai");
-    else if(value == "yuri") randomImages("../../media/yuri");
-    else if(value == "yaoi") randomImages("../../media/yaoi");
-    else if(value == "trap") randomImages("../../media/trap");
+    if(value == "hentai") randomImages("../media/hentai");
+    else if(value == "yuri") randomImages("../media/yuri");
+    else if(value == "yaoi") randomImages("../media/yaoi");
+    else if(value == "trap") randomImages("../media/trap");
 }
 module.exports = nsfwMedia;
