@@ -1,10 +1,10 @@
 const scraper = require("../tools/scraper")
 
-function searchRoute(request, response){
+function searchRoute(replaceSearch, response){
     let data = "";
     const awaitPromise = () => {
         return new Promise(async(resolve) => {
-            data = await scraper(`${request.query.search}`?.replace(/%20/g, "_"))
+            data = await scraper(replaceSearch)
             resolve();
         });
      }
