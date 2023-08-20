@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.21",
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0",
+    "cheerio": "^1.0.0-rc.10",
     "@types/node": "^16.11.19",
     "body-parser": "^1.19.0"
   },
