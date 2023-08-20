@@ -9,15 +9,18 @@ bash build.sh
 
 ## to generate already searched images you can use the following routes 
 
-### /media/hentai
-### /media/yaoi
-### /media/yuri
-### /media/bdsm
-### /media/trap
+### /media/h/hentai
+### /media/h/yaoi
+### /media/h/yuri
+### /media/h/bdsm
+### /media/h/trap
+### /media/r/ass
+### /media/r/boobs
+### /media/r/pussy
 
 ## to search images all over the Internet and get a detailed description you will use the route
 
-### /search?q=<your research>
+### /h/search?q=<your research>
 
   
 # in the air is like: 
