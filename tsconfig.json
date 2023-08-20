@@ -9,7 +9,8 @@
     "src/app.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "media"
   ],
   "scripts": {
     "start": "node src/app.js"
