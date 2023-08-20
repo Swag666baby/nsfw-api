@@ -24,4 +24,4 @@ bash build.sh
 
   
 # in the air is like: 
-https://drab-cow-bracelet.cyclic.app/
+https://nsfw-api-p302.onrender.com/
