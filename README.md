@@ -14,13 +14,19 @@ an api to "generate" nsfw images randomly.
 ### /media/h/bdsm
 ### /media/h/trap
 
-## for real pictures go to 
+## to search for images or videos 
+### /h/images/search?q=<your research>
+### /h/videos/search?q=<your research>
+
+
+## to get real images follow the routes 
 ### /media/r/ass
 ### /media/r/boobs
 ### /media/r/pussy
 
-## to search hentai images follow the route 
-### /h/search?q=<your research>
+## 110 types are also available in the route 
+### /r/images/<tag>
+tags are available at `tags.txt`
   
 # in the air is like: 
 https://nsfw-api-p302.onrender.com/

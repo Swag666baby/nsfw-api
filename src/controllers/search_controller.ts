@@ -1,4 +1,4 @@
-import {scraper} from "../utils/scraper.js";
+import {scraper} from "../utils/scrapers/rule34/index";
 
 export const surveyController  = (search) => {
     let data: any[] = []
