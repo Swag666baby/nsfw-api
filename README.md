@@ -18,7 +18,6 @@ an api to "generate" nsfw images randomly.
 ### /h/image/search?q=<your research>
 ### /h/video/search?q=<your research>
 
-
 ## to get real images follow the routes 
 ### /media/r/ass
 ### /media/r/boobs
