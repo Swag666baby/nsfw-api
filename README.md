@@ -15,8 +15,8 @@ an api to "generate" nsfw images randomly.
 ### /media/h/trap
 
 ## to search for images or videos 
-### /h/image/search?q=<your research>
-### /h/video/search?q=<your research>
+### /h/image/search?q=<your_1research>
+### /h/video/search?q=<your+research>
 
 ## to get real images follow the routes 
 ### /media/r/ass
@@ -24,7 +24,7 @@ an api to "generate" nsfw images randomly.
 ### /media/r/pussy
 
 ## 110 types are also available in the route 
-### /r/image/<tag>
+### /r/image/< tag >
 tags are available at `tags.txt`
   
 # in the air is like: 
