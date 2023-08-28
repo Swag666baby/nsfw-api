@@ -15,7 +15,7 @@ an api to "generate" nsfw images randomly.
 ### /media/h/trap
 
 ## to search for images or videos 
-### /h/image/search?q=<your_1research>
+### /h/image/search?q=<your_research>
 ### /h/video/search?q=<your+research>
 
 ## to get real images follow the routes 
