@@ -33,7 +33,7 @@ an api to "generate" nsfw images randomly.
 **/h/image/search?q=<your_research>**
 **/h/video/search?q=<your+research>**
 
-## to search real images or videos 
+## to search real videos 
 **/r/video/search?q=<your_research>**
 
 ## 110 types are also available in the route 
