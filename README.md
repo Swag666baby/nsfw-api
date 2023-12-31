@@ -29,11 +29,12 @@ an api to "generate" nsfw images randomly.
 **/media/r/pussy**
 
 
-## to search for images or videos 
+## to search hentai images or videos 
 **/h/image/search?q=<your_research>**
 **/h/video/search?q=<your+research>**
 
-
+## to search real images or videos 
+**/r/video/search?q=<your_research>**
 
 ## 110 types are also available in the route 
 ### /r/image/< tag >

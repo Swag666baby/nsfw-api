@@ -2,17 +2,16 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
-//    "outDir": "./",
+    "outDir": "./dist",
     "rootDir": "src"
   },
   "include": [
-    "src/app.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "media"
+    "node_modules"
   ],
   "scripts": {
-    "start": "node src/app.js"
+    "start": "src/index.js"
   }
 }
