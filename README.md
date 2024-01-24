@@ -11,7 +11,7 @@ src="https://profile-counter.glitch.me/{Swag666baby}/count.svg"/>
 an api to "generate" nsfw images randomly. 
 
 ## to get hentai images follow the routes 
-**/media/h/hentai**
+**/media/h/vanila**
 
 **/media/h/yaoi**
 
