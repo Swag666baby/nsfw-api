@@ -38,6 +38,7 @@ an api to "generate" nsfw images randomly.
 
 ## 110 types are also available in the route 
 **/r/image/< tag >**
+
 tags are available at `tags.txt`
   
 # in the air is like: 
