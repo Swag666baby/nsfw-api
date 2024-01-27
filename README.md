@@ -37,7 +37,7 @@ an api to "generate" nsfw images randomly.
 **/r/video/search?q=<your_research>**
 
 ## 110 types are also available in the route 
-### /r/image/< tag >
+**/r/image/< tag >**
 tags are available at `tags.txt`
   
 # in the air is like: 
