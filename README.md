@@ -43,3 +43,12 @@ tags are available at `tags.txt`
   
 # in the air is like: 
 https://nsfw-api-p302.onrender.com/
+
+
+## deployment guide  
+```bash
+cd nsfw-api
+yarn
+tsc
+node dist/app.js
+```
