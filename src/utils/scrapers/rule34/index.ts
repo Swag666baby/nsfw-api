@@ -1,5 +1,6 @@
 import {load} from "cheerio";
-import {default as axios} from "axios";
+import {resolvedImages} from "./images";
+import axios from "axios";
 
 export const scraper = async(search) => {
     const headers = {
@@ -8,8 +9,8 @@ export const scraper = async(search) => {
     const response = await axios.get(`https://www.rule34.us/index.php?r=posts/index&q=${search}`, {headers});
     let $ = load(`${response.data}`);
     let data: any[] = []
-    const images = $(".thumbail-container img").map((index, element) => {
-        data.push(`${$(element).attr("data-src")}`);
+    const images = $(".thumbail-container a").map((index, element) => {
+        data.push(`${$(element).attr("href")}`);
     });
-    return data;
+    return resolvedImages(data);
 }
